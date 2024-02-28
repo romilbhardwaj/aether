@@ -7,7 +7,7 @@ For download, the file is then reassembled from the chunks.
 
 ## Example
 
-```console
+```bash
 # Upload file
 $ curl -X POST -F "file=@my.data" http://127.0.0.1:5000/upload                    
 
