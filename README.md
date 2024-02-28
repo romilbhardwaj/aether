@@ -45,7 +45,8 @@ Aether is configured through environment variables.
 ```bash
 export GCS_BUCKET_NAME='' # Your GCS bucket name
 export AZURE_CONNECTION_STRING='' # Your Azure connection string
-export AZURE_CONTAINER_NAME='' # Your Azure container name 
+export AZURE_CONTAINER_NAME='' # Your Azure container name
+export CHUNK_SIZE=1 # 1MB default chunk sizes for sharding
 
 python -m aether.server
 ```
